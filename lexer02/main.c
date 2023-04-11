@@ -74,7 +74,6 @@ void identificador(char *texto, TokenList *lista, int *index)
   {
     (*index)++;
   }
-
   identificador(texto + espacoCaracter, lista, index);
 }
 
@@ -156,4 +155,3 @@ int main(int argc, char *argv[])
   free(textoArquivo);
   return 0;
 }
-_
